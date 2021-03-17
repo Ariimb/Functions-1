@@ -1,4 +1,8 @@
-
+1. Create a function that receives a string and print the inverted string, remember that to print an element i you can use printf("%c",string[i]); 
+2. Create a function that returns 0 if both have the same length and 1 if is different.
+3. Create a function that returns 0 if both strings have the same elements, and when there's a different element. returns the first different char... an example: "var1X" and "var1Y", returns "X"
+4. Create a function where you insert a string and return 1 if is palindromic or not, it means that returns 1 if is palindrome ("ala"), return 0 if is not ("hello")
+5. Create a function where you enter a string of 30 chars and print only the consonants
 
 
 
