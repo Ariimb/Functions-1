@@ -37,9 +37,44 @@ printf("Length is different");
 
 3. Create a function that returns 0 if both strings have the same elements, and when there's a different element. returns the first different char... an example: "var1X" and "var1Y", returns "X"
 
+    string1 = input("Var1X") 
+    print(string1, end = "\n") 
+      
+    string2 = input("Var1Y ") 
+    print(string2, end ="\n") 
+      
+    print("Are both strings same: ", end = " ")  
+  
+    if (string1 == string2) :  
+        print("0") 
+          
+    else :  
+        print("X")  
+
 4. Create a function where you insert a string and return 1 if is palindromic or not, it means that returns 1 if is palindrome ("ala"), return 0 if is not ("hello")
+
+string=input(("ala"))
+if(string==string[::-1]):
+     
+     print("1")
+      
+string=input(("Hello"))
+if(string==string[::-1]):
+    
+      print("0")
+
 5. Create a function where you enter a string of 30 chars and print only the consonants
 
+str1 = input("Please Enter Your Own String : ")
+
+consonants = 0
+
+for i in str1:
+    if(i == 'a' or i == 'e' or i == 'i' or i == 'o' or i == 'u'
+       or i == 'A' or i == 'E' or i == 'I' or i == 'O' or i == 'U'):
+ 
+        consonants = consonants + 1
+print("Total Number of Consonants in this String = ", consonants)
 
 
 
